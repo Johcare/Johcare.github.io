@@ -1,4 +1,5 @@
 
+
 a:-webkit-any-link {
 	color: #56aeea;
 	text-decoration: none;
@@ -40,4 +41,48 @@ background-size: cover;
 height: 100%;
 width: 100%;
 background-image: url("maxresdefault.jpg");
+
+
+a:-webkit-any-link {
+	color: #56aeea;
+	text-decoration: none;
+	opacity:20px;
+	transition:all.5s ease
+
+}
+a:-webkit-any-link:hover{
+  color:#a556ea; 
+transition:all.4s ease
+
+}
+#h1{
+	font-size: 200px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#h1:hover{
+	color:#15a287; 
+
+
+
+}
+
+.container{
+position: absolute;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+}
+
+.maxres{
+	position: absolute;
+margin:0 auto 0 auto;
+background-repeat:no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+background-image: url("maxresdefault.jpg");
+
 }

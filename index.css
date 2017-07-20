@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 *{
   margin: 0;
@@ -328,3 +329,334 @@ color: #7fff00;
 
 
 
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+*{
+  margin: 0;
+  padding: 0;
+}
+/*дабавляю tакое же как для боди*/
+body,html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  
+  background-color:#f6f6f6;
+}
+
+
+a {
+  color:#fa713e;
+  text-decoration:none;
+  transition: all.2s ease;
+  -ms-transition:all.6s ease;
+  -o-transition:all.6s ease;
+  -moz-transition:all.6s ease;
+  -webkit-transition:all.6s ease;
+}
+a:hover {
+  color:#c34f25;
+  text-decoration:none;
+  transition: all.2s ease;
+  -ms-transition:all.6s ease;
+  -o-transition:all.6s ease;
+  -moz-transition:all.6s ease;
+  -webkit-transition:all.6s ease;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  transition: all.2s ease;
+  -ms-transition:all.3s ease;
+  -o-transition:all.3s ease;
+  -moz-transition:all.3s ease;
+  -webkit-transition:all.3s ease;
+}
+
+hr {
+  display:block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  
+  padding:0; 
+}
+
+header{
+  font-family:'Fredoka One'serif;
+  float: left;
+  background: #343434;
+  width: 99.4%;
+  padding: 0.3%;
+  border-bottom: 5px solid #59595a;
+}
+
+img{
+  float: left;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+a{
+  color: white;
+}
+
+div span{
+  font-size: 2.5em;
+  margin-left: 10px;
+  font-family:'Fredoka One', cursive;
+}
+
+      /*111111111111*/
+      @media(min-width:950px){
+        
+       img
+        {margin-left:8%;}
+
+      #logo
+        {
+          float: left; 
+         width: 30%;
+       }
+      #home {
+        float: left;
+        width: 37%;
+      }
+      #reg_auth{
+        padding-top: 10px;
+        font-family:'Fredoka One';
+        float: right;
+        width:20%;
+      }
+      }
+#home{
+  text-align:center;
+   width: 30%;
+  font-size: 1.4em;
+  font-family:'Fredoka One', cursive;
+  padding-top: 20px;
+}
+        /*2222222222*/
+        @media(max-width:949px)and (min-width:525px)
+        {
+        img
+          {margin-left:8%;
+          }
+          
+        #logo{
+          float: left; 
+        width: 50%;
+        }
+          
+        #home{
+         visibility: hidden;
+          display: none;
+        }
+        #reg_auth{
+          padding-top: 10px;
+          font-family:'Fredoka One';
+          float: right;
+          width:50%;
+        }
+        }
+
+        /*33333333333*/
+        @media(max-width:524px){
+         img
+          {margin-left:5%;
+          }
+        #logo{ 
+          width: 100%;
+        }
+        #home{
+          visibility: hidden;
+          display: none;
+
+        }
+        #reg_auth a{
+         visibility: hidden;
+          display: none;
+        }
+          }
+
+#home a:last-child{
+  margin-left: 5%;
+}
+#btn{
+  float: right;
+  margin-right: 3%;
+  margin-top: 3%;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 5px 9px;
+  text-shadow: #454545 0 0 2px;
+  border-bottom: 4px solid #454545;
+}
+
+#btn:hover{
+  margin-top: 9px;
+  color:silver;
+  border-bottom: 1px solid #7fff00;  
+}
+/*NAVIGATION*/
+/*ПОМЕНФ*/
+nav{
+  background-color: #136767;
+  width: 99.4%;
+
+  padding:7px 0.3%;
+  float: left;
+  border-bottom: 2px solid gold;
+}
+nav a{
+  color:#323232;
+  font-size: 1.3em;
+  margin-left: 5%;
+}
+nav a:hover{
+  margin-left: 5%;
+  border-radius: 10px;
+ color:#7fff00;
+
+}
+#search{
+  float: right;
+  margin-top: 6px;
+  color:grey;
+}
+#search:hover{
+  color: #7fff00;
+}
+#span{
+  margin-right: 40px;
+  font-family:fantasy;
+  font-size:1.4em;
+  float: right;
+  color:grey;
+  cursor: pointer;
+}
+#span:hover{
+  color:#7fff00;
+}
+
+
+
+/*FINISHED HEADER!!!*/
+
+/*MAIN CONTENT OF THE SITE*/
+
+#wrapper{
+  display: flex;
+flex-direction: column;
+  height: 100%;
+}
+#content{
+  flex: 1 0 auto;
+}
+
+footer{
+  float: left;
+  background: #343434;
+  width: 98%;
+  padding: 1%;
+  border-top:20px solid #59595a;
+  font-family: 'Fredoka One';
+  
+}
+
+#site_name {
+  color: azure;
+  float: right;
+}
+
+@media(min-width:1080px){
+  #clear{
+    clear: both;
+  }
+}
+#footer_menu a:hover{
+  border-bottom: 1px solid silver;
+  color:#7fff00;
+}
+#rights a {
+  float: left;
+  margin-left: 5%;
+margin-top: 10px;
+}
+#social{ 
+  float: right;
+   width:40%;
+    margin-right:2%;
+    margin-top: 10px;
+}
+#social>a{
+  border-radius: 50%;
+  -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+  background-color: chartreuse;
+  margin-left: 2%;
+  width: 30px;
+  height: 30px;
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.2em;
+  color:#59595a;
+}
+#social>a:hover{
+  background-color:darkslategrey;
+  opacity: 
+}
+@media(max-width:520px){
+  #site_name{
+     
+    display: none;
+  }
+  
+  #social{
+    width: 100%;
+  }
+}
+
+
+
+#lefth1{
+font-family:'Dangrek' cursive;
+
+}
+
+#hidemenu{
+font-family:'Dangrek'cursive;
+
+}
+
+#textphoto{
+
+background: tomato;
+width: 100%;
+height: 10px;
+margin:0 auto 0 auto;
+
+}
+
+#shots{
+  background-color: #343434;
+  text-align: center;
+}
+ #shots a:hover{
+color: #7fff00;
+
+ }
+
+
+
+
+
+
+
+
+ 
